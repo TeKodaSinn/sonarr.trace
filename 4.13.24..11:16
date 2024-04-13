@@ -1,0 +1,47 @@
+2024-04-13 11:16:29.8|Trace|DiskProviderBase|Deleting file: C:\ProgramData\Sonarr\logs\sonarr.txt
+2024-04-13 11:16:29.8|Trace|CommandQueueManager|Updating command status
+2024-04-13 11:16:29.8|Trace|EventAggregator|Publishing CommandUpdatedEvent
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandUpdatedEvent -> CommandController
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandUpdatedEvent <- CommandController
+2024-04-13 11:16:29.8|Trace|EventAggregator|Publishing CommandExecutedEvent
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandExecutedEvent -> TaskManager
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandExecutedEvent <- TaskManager
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandExecutedEvent -> TaskController
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandExecutedEvent <- TaskController
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandExecutedEvent -> QualityDefinitionController
+2024-04-13 11:16:29.8|Trace|EventAggregator|CommandExecutedEvent <- QualityDefinitionController
+2024-04-13 11:16:29.8|Trace|CommandExecutor|DeleteLogFilesCommand <- DeleteLogFilesService [00:00:00.0150746]
+2024-04-13 11:16:29.8|Trace|Http|Req: 419 [GET] /api/v3/command (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:29.8|Trace|CommandQueueManager|Getting all commands
+2024-04-13 11:16:29.8|Trace|Http|Res: 419 [GET] /api/v3/command: 200.OK (1 ms)
+2024-04-13 11:16:29.8|Debug|Api|[GET] /api/v3/command: 200.OK (1 ms)
+2024-04-13 11:16:29.9|Trace|Http|Req: 420 [GET] /api/v3/log/file (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:29.9|Trace|Http|Res: 420 [GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:29.9|Debug|Api|[GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:33.0|Trace|Http|Req: 421 [GET] /api/v3/log/file (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:33.0|Trace|Http|Res: 421 [GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:33.0|Debug|Api|[GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:33.8|Trace|Http|Req: 422 [GET] /api/v3/log/file (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:33.8|Trace|Http|Res: 422 [GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:33.8|Debug|Api|[GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:34.0|Trace|Http|Req: 423 [GET] /api/v3/log/file (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:34.0|Trace|Http|Res: 423 [GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:34.0|Debug|Api|[GET] /api/v3/log/file: 200.OK (1 ms)
+2024-04-13 11:16:52.5|Trace|Scheduler|Pending Tasks: 0
+2024-04-13 11:16:59.9|Trace|Http|Res: 390 [GET] /signalr/messages?access_token=(removed)&id=bZhPTp4_oFvCCOZe8Bcq2w: 101.SwitchingProtocols (62359 ms)
+2024-04-13 11:16:59.9|Trace|Http|Req: 424 [POST] /signalr/messages/negotiate?access_token=(removed)&negotiateVersion=1 (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:59.9|Trace|Http|Res: 424 [POST] /signalr/messages/negotiate?access_token=(removed)&negotiateVersion=1: 200.OK (0 ms)
+2024-04-13 11:16:59.9|Trace|Http|Req: 425 [GET] /signalr/messages?access_token=(removed)&id=659p4ZK6QgxmnAcaFxBing (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:59.9|Trace|Http|Req: 426 [GET] /api/v3/queue/status (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:59.9|Trace|Http|Res: 426 [GET] /api/v3/queue/status: 200.OK (1 ms)
+2024-04-13 11:16:59.9|Debug|Api|[GET] /api/v3/queue/status: 200.OK (1 ms)
+2024-04-13 11:16:59.9|Trace|Http|Req: 427 [GET] /api/v3/health (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:59.9|Trace|Http|Res: 427 [GET] /api/v3/health: 200.OK (1 ms)
+2024-04-13 11:16:59.9|Trace|Http|Req: 428 [GET] /api/v3/series (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:59.9|Debug|Api|[GET] /api/v3/health: 200.OK (1 ms)
+2024-04-13 11:16:59.9|Trace|Http|Req: 429 [GET] /api/v3/command (from 127.0.0.1 Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0)
+2024-04-13 11:16:59.9|Trace|CommandQueueManager|Getting all commands
+2024-04-13 11:16:59.9|Trace|Http|Res: 429 [GET] /api/v3/command: 200.OK (1 ms)
+2024-04-13 11:16:59.9|Debug|Api|[GET] /api/v3/command: 200.OK (1 ms)
+2024-04-13 11:17:00.1|Trace|Http|Res: 428 [GET] /api/v3/series: 200.OK (207 ms)
+2024-04-13 11:17:00.1|Debug|Api|[GET] /api/v3/series: 200.OK (207 ms)
